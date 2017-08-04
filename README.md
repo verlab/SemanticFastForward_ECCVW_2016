@@ -170,7 +170,7 @@ M. M. Silva, W. L. S. Ramos, J. P. K. Ferreira, M. F. M. Campos, E. R. Nasciment
 > Booktitle = {Computer Vision -- ECCV 2016 Workshops: Amsterdam, The Netherlands, October 8-10 and 15-16, 2016, Proceedings, Part I},  
 > Doi = {10.1007/978-3-319-46604-0_40},  
 > ISBN = {978-3-319-46604-0},  
-> Url = {http://dx.doi.org/10.1007/978-3-319-46604-0_40} 
+> Url = { http://dx.doi.org/10.1007/978-3-319-46604-0_40 }   
 > }  
 
 #### Enjoy it. ####
