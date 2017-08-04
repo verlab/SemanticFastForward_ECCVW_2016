@@ -35,14 +35,14 @@ http://www.verlab.dcc.ufmg.br
 
 The project processing is decribed by the following flowchart:
 
-![Flowchart](https://bitbucket.org/repo/da5EyoB/images/2492968596-EPIC@ECCVW-2016.jpg)
+![Flowchart](https://user-images.githubusercontent.com/23279754/28940020-a0b49676-7869-11e7-9677-e8833f81713e.jpg)
 
 1. **Optical Flow Estimator:**
 
     The first step processing is to estimate the Optical Flow of the Input VIdeo. 
 
     1. First you should download the [Poleg et al. 2014](http://www.cs.huji.ac.il/~peleg/papers/cvpr14-egoseg.pdf) Flow Estimator code from the [link](http://www.vision.huji.ac.il/egoseg/EgoSeg1.2.zip).
-   	2. Navigate to the download folder and unzip the code.
+	2. Navigate to the download folder and unzip the code.
     3. Into the Vid2OpticalFlowCSV\Example folder, run the command:
 
 ```bash
@@ -114,7 +114,7 @@ function [videoFile, startInd, endInd, filename, fps] = GetVideoDetails(video_di
 | ` < final_index_frame > ` | Frame intex to stop the processing. | _Integer_ | `16987` |
 | ` < video_frames_per_second > ` | Frames per second of the video. | _Integer_ | `30` |
 
-4. **Semantic Fast-Forward**
+5. **Semantic Fast-Forward**
 
     After the previous steps, you are ready to accelerate the Input Video. On MATLAB console, go to the project folder and run the command:
 
@@ -134,11 +134,11 @@ function [videoFile, startInd, endInd, filename, fps] = GetVideoDetails(video_di
 | ` < Appearance_weights > ` | Tuple of weights related to the shakiness term in the edge weight formulation. | [_Integer_, _Integer_] | `[0,100]` |
 | ` < Semantic_weights > ` | Tuple of weights related to the shakiness term in the edge weight formulation. | [_Integer_, _Integer_] | `[500,8]` |
 
-5. **Configure Video Parameters**
+6. **Configure Video Parameters**
 
     After the Semantic Fast-Forward step, the accelerated video is create. Now we are going to stabilize the output video. The first stabilization step is to configure the video parameters in the file `acceleratedVideoStabilizer/experiment.xml`. Follow the instructions described into the file.
 
-6. **Accelerate Video Stabilizer**
+7. **Accelerate Video Stabilizer**
 
     Navigate to the `<project_folder>/acceleratedVideoStabilizer/` folder. Follow the instructions described into the `<project_folder>/acceleratedVideoStabilizer/README.md` file to compile and run the code.
     
@@ -173,4 +173,4 @@ M. M. Silva, W. L. S. Ramos, J. P. K. Ferreira, M. F. M. Campos, E. R. Nasciment
 > Url = {http://dx.doi.org/10.1007/978-3-319-46604-0_40}  
 > }  
 
-###### Enjoy it. ######
+#### Enjoy it. ####
