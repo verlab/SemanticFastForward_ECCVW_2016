@@ -10,7 +10,7 @@ For more information, acess the link: http://www.verlab.dcc.ufmg.br/fast-forward
 
 * Michel Melo da Silva - PhD student - UFMG - michelms@dcc.ufmg.com
 * Washington Luis de Souza Ramos - MSc student - UFMG - washington.ramos@outlook.com
-* João Pedro Klock Ferreira - Undergraduate Student - UFMG - jpklock@dcc.ufmg.br
+* JoÃ£o Pedro Klock Ferreira - Undergraduate Student - UFMG - jpklock@dcc.ufmg.br
 * Mario Fernando Montenegro Campos - Advisor - UFMG - mario@dcc.ufmg.br
 * Erickson Rangel do Nascimento - Advisor - UFMG - erickson@dcc.ufmg.br
 
@@ -22,7 +22,7 @@ Belo Horizonte - Minas Gerais -Brazil
 
 ### Laboratory ###
 
-__VeRLab:__ Vison and Robotic Laboratory  
+__VeRLab:__ Laboratory of Computer Vison and Robotics   
 http://www.verlab.dcc.ufmg.br
 
 ## Program ##
@@ -68,6 +68,8 @@ Example 4: Run VideoStabilization in the Experiment_1 processing from the 150 fr
 
 ### Documentation ###
 
+The Accelerated Video Stabilizer documention can be accessed through the [link](http://www.verlab.dcc.ufmg.br/fast-forward-video-based-on-semantic-extraction/doc/acceleratedVideoStabilizer).
+
 To generate the documentation of the project, run the following command into the project folder:
 
             user@computer:<project_path>: doxygen doc/doc_conf
@@ -78,7 +80,7 @@ The documentation will be generated in the `<project_path>/doc` folder.
 
 If you are using it to academic purpose, please cite: 
 
-M. M. Silva, W. L. S. Ramos, J. P. K. Ferreira, M. F. M. Campos, E. R. Nascimento, __Towards semantic fast-forward and stabilized egocentric videos__, in: European Conference on Computer Vision Workshops, Springer International Publishing, Amsterdam, NL, 2016, pp. 557–571. doi:10.1007/978-3-319-46604-0_40.
+M. M. Silva, W. L. S. Ramos, J. P. K. Ferreira, M. F. M. Campos, E. R. Nascimento, __Towards semantic fast-forward and stabilized egocentric videos__, in: European Conference on Computer Vision Workshops, Springer International Publishing, Amsterdam, NL, 2016, pp. 557â€“571. doi:10.1007/978-3-319-46604-0_40.
 
 ### Bibtex entry ###
 
