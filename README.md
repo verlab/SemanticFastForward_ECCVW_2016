@@ -41,7 +41,7 @@ The project processing is decribed by the following flowchart:
 
     The first step processing is to estimate the Optical Flow of the Input VIdeo. 
 
-    1. First you should download the [Poleg et al. 2014](http://www.cs.huji.ac.il/~peleg/papers/cvpr14-egoseg.pdf) Flow Estimator code from the [link](http://www.vision.huji.ac.il/egoseg/EgoSeg1.2.zip).
+    1. First, you should download the [Poleg et al. 2014](http://www.cs.huji.ac.il/~peleg/papers/cvpr14-egoseg.pdf) Flow Estimator code from the [link](http://www.vision.huji.ac.il/egoseg/EgoSeg1.2.zip).
     2. Navigate to the download folder and unzip the code.
     3. Into the Vid2OpticalFlowCSV\Example folder, run the command:
 
@@ -153,7 +153,7 @@ The output of this step is the stabilized semantic fast-forward video.
 
 ## Citation ##
 
-If you are using it to academic purpose, please cite: 
+If you are using it for academic purposes, please cite: 
 
 M. M. Silva, W. L. S. Ramos, J. P. K. Ferreira, M. F. M. Campos, E. R. Nascimento, Towards semantic fast-forward and stabilized egocentric videos, in: European Conference on Computer Vision Workshops, Springer International Publishing, Amsterdam, NL, 2016, pp. 557–571. doi:10.1007/978-3-319-46604-0_40.
 
@@ -170,7 +170,7 @@ M. M. Silva, W. L. S. Ramos, J. P. K. Ferreira, M. F. M. Campos, E. R. Nasciment
 > Booktitle = {Computer Vision -- ECCV 2016 Workshops: Amsterdam, The Netherlands, October 8-10 and 15-16, 2016, Proceedings, Part I},  
 > Doi = {10.1007/978-3-319-46604-0_40},  
 > ISBN = {978-3-319-46604-0},  
-> Url = {http://dx.doi.org/10.1007/978-3-319-46604-0_40}  
+> Url = {http://dx.doi.org/10.1007/978-3-319-46604-0_40} 
 > }  
 
 #### Enjoy it. ####
