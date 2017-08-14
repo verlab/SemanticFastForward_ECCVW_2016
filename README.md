@@ -4,7 +4,7 @@
 
 # Project #
 
-This project is based on the paper [Towards Semantic Fast-Forward and Stabilized Egocentric Videos](http://www.verlab.dcc.ufmg.br/wp-content/uploads/2016/10/Final_Draft_ECCVW_2016_Towards_Semantic_Fast_Forward_and_Stabilied_Egocentric_Videos.pdf) on the **First International Workshop on Egocentric Perception, Interaction and Computing** at **European Conference on Computer Vision Workshops** (EPIC@ECCVW 2016). It implements a semantic fast-forward method for First-Person videos with a proper stabilization method.
+This project is based on the paper [Towards Semantic Fast-Forward and Stabilized Egocentric Videos](http://www.verlab.dcc.ufmg.br/semantic-hyperlapse/papers/Final_Draft_ECCVW_2016_Towards_Semantic_Fast_Forward_and_Stabilied_Egocentric_Videos.pdf) on the **First International Workshop on Egocentric Perception, Interaction and Computing** at **European Conference on Computer Vision Workshops** (EPIC@ECCVW 2016). It implements a semantic fast-forward method for First-Person videos with a proper stabilization method.
 
 For more information and visual results, please access the [project page](http://www.verlab.dcc.ufmg.br/fast-forward-video-based-on-semantic-extraction).
 
