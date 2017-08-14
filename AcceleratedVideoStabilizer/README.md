@@ -1,8 +1,12 @@
+
+[![Version](https://img.shields.io/badge/version-1.0-brightgreen.svg)](http://www.verlab.dcc.ufmg.br/fast-forward-video-based-on-semantic-extraction/#ECCVW2016)
+[![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](LICENSE)
+
 # Project #
 
-This code is based on the paper [Towards Semantic Fast-Forward and Stabilized Egocentric Video](http://www.verlab.dcc.ufmg.br/wp-content/uploads/2016/10/Final_Draft_ECCVW_2016_Towards_Semantic_Fast_Forward_and_Stabilied_Egocentric_Videos.pdf) on the __First International Workshop on Egocentric Perception, Interaction and Computing__ at __European Conference on Computer Vision__ (EPIC@@ECCV 2016). The goal of the program is to stabilize a fast-forward version of a video, using the dropped frames to reconstruct distorted images during the processing. 
+This code is based on the paper [Towards Semantic Fast-Forward and Stabilized Egocentric Video](http://www.verlab.dcc.ufmg.br/semantic-hyperlapse/papers/Final_Draft_ECCVW_2016_Towards_Semantic_Fast_Forward_and_Stabilied_Egocentric_Videos.pdf) on the __First International Workshop on Egocentric Perception, Interaction and Computing__ at __European Conference on Computer Vision__ (EPIC@@ECCV 2016). The goal of the program is to stabilize a fast-forward version of a video, using the dropped frames to reconstruct distorted images during the processing. 
 
-For more information, acess the link: http://www.verlab.dcc.ufmg.br/fast-forward-video-based-on-semantic-extraction.
+For more information, acess the [project page](http://www.verlab.dcc.ufmg.br/fast-forward-video-based-on-semantic-extraction).
 
 ## Contact ##
 
@@ -10,7 +14,7 @@ For more information, acess the link: http://www.verlab.dcc.ufmg.br/fast-forward
 
 * Michel Melo da Silva - PhD student - UFMG - michelms@dcc.ufmg.com
 * Washington Luis de Souza Ramos - MSc student - UFMG - washington.ramos@outlook.com
-* João Pedro Klock Ferreira - Undergraduate Student - UFMG - jpklock@dcc.ufmg.br
+* João Pedro Klock Ferreira - Undergraduate Student - UFMG - jpklock@ufmg.br
 * Mario Fernando Montenegro Campos - Advisor - UFMG - mario@dcc.ufmg.br
 * Erickson Rangel do Nascimento - Advisor - UFMG - erickson@dcc.ufmg.br
 
@@ -22,17 +26,19 @@ Belo Horizonte - Minas Gerais -Brazil
 
 ### Laboratory ###
 
+![VeRLab](https://www.dcc.ufmg.br/dcc/sites/default/files/public/verlab-logo.png)
+
 __VeRLab:__ Laboratory of Computer Vison and Robotics   
 http://www.verlab.dcc.ufmg.br
 
-## Program ##
+## Code ##
 
 ### Dependencies ###
 
 * OpenCV 2.4 _(Tested with 2.4.9 and 2.4.13)_
 * Armadillo 6 _(Tested with 6.600.5 -- Catabolic Amalgamator)_
-* Boost 1 _(Tested with 1.54.0)_
-* Doxygen 1 _(for documentation - Tested with 1.8.12)_
+* Boost 1 _(Tested with 1.54.0 and 1.58.0)_
+* Doxygen 1 _(for documentation only - Tested with 1.8.12)_
 
 ### Compiling ###
 
@@ -80,7 +86,7 @@ The documentation will be generated in the `<project_path>/doc` folder.
 
 If you are using it to academic purpose, please cite: 
 
-M. M. Silva, W. L. S. Ramos, J. P. K. Ferreira, M. F. M. Campos, E. R. Nascimento, __Towards semantic fast-forward and stabilized egocentric videos__, in: European Conference on Computer Vision Workshops, Springer International Publishing, Amsterdam, NL, 2016, pp. 557–571. doi:10.1007/978-3-319-46604-0_40.
+M. M. Silva, W. L. S. Ramos, J. P. K. Ferreira, M. F. M. Campos, E. R. Nascimento, __Towards semantic fast-forward and stabilized egocentric videos__, in: _European Conference on Computer Vision Workshops_, Springer International Publishing, Amsterdam, NL, 2016, pp. 557–571. doi:10.1007/978-3-319-46604-0_40.
 
 ### Bibtex entry ###
 
