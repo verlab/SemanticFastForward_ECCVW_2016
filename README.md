@@ -1,3 +1,7 @@
+
+[![Version](https://img.shields.io/badge/version-1.0-brightgreen.svg)](http://www.verlab.dcc.ufmg.br/fast-forward-video-based-on-semantic-extraction/#ECCVW2016)
+[![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](LICENSE)
+
 # Project #
 
 This project is based on the paper [Towards Semantic Fast-Forward and Stabilized Egocentric Videos](http://www.verlab.dcc.ufmg.br/wp-content/uploads/2016/10/Final_Draft_ECCVW_2016_Towards_Semantic_Fast_Forward_and_Stabilied_Egocentric_Videos.pdf) on the **First International Workshop on Egocentric Perception, Interaction and Computing** at **European Conference on Computer Vision Workshops** (EPIC@ECCVW 2016). It implements a semantic fast-forward method for First-Person videos with a proper stabilization method.
@@ -22,14 +26,22 @@ Belo Horizonte - Minas Gerais -Brazil
 
 ### Laboratory ###
 
+![VeRLab](https://www.dcc.ufmg.br/dcc/sites/default/files/public/verlab-logo.png)
+
 **VeRLab:** Laboratory of Computer Vison and Robotics   
 http://www.verlab.dcc.ufmg.br
 
 ## Code ##
 
+This project is a two-fold source code. The first fold¹ is composed of MATLAB code to describe the video semantically and to fast-forward it. A stabilizer proper to fast-forwarded video written in C++ using OpenCV is the second fold². You can run each fold separately. 
+
 ### Dependencies ###
 
-* MATALB 2015a or higher
+* ¹MATLAB 2015a or higher  
+* ²OpenCV 2.4 _(Tested with 2.4.9 and 2.4.13)_  
+* ²Armadillo 6 _(Tested with 6.600.5 -- Catabolic Amalgamator)_  
+* ²Boost 1 _(Tested with 1.54.0 and 1.58.0)_  
+* ²Doxygen 1 _(for documentation only - Tested with 1.8.12)_  
 
 ### Usage ###
 
@@ -155,7 +167,7 @@ The output of this step is the stabilized semantic fast-forward video.
 
 If you are using it for academic purposes, please cite: 
 
-M. M. Silva, W. L. S. Ramos, J. P. K. Ferreira, M. F. M. Campos, E. R. Nascimento, Towards semantic fast-forward and stabilized egocentric videos, in: European Conference on Computer Vision Workshops, Springer International Publishing, Amsterdam, NL, 2016, pp. 557–571. doi:10.1007/978-3-319-46604-0_40.
+M. M. Silva, W. L. S. Ramos, J. P. K. Ferreira, M. F. M. Campos, E. R. Nascimento, **Towards semantic fast-forward and stabilized egocentric videos**, in: _European Conference on Computer Vision Workshops_, Springer International Publishing, Amsterdam, NL, 2016, pp. 557–571. doi:10.1007/978-3-319-46604-0_40.
 
 ### Bibtex entry ###
 
