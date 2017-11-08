@@ -69,7 +69,7 @@ $ wget www.verlab.dcc.ufmg.br/semantic-hyperlapse/data/video-example/example_fac
 
 % SpeedupVideo(< video_dir >, < experiment_name >, < semantic_extractor >, < semantic_speedup >, < non_semantic_speedup >, < shakiness_weights >, < velocity_weights >, < appearance_weights >, < semantic_weights >);
 
->> SpeedupVideo('', 'Example', 'face', 6, 14, [10 5], [3 15], [50 30], [20 2]);
+>> SpeedupVideo('.', 'Example', 'face', SS, SNS, [10 5], [3 15], [50 30], [20 2]);
 
 % In this script, the example video is inside the project folder, so set the < video_dir > parameter as ''.
 
@@ -77,4 +77,4 @@ $ wget www.verlab.dcc.ufmg.br/semantic-hyperlapse/data/video-example/example_fac
 % To find good results, we recommend to try different graph weigths and checking the output information in the "out/EXPERIMENT_NAME_GeneralResults.csv" file.
 % The user may set the optional argument 'ExportOutputVideo' as false to avoid generate the output video during the search.
 
->> SpeedupVideo('', 'Example', 'face', 6, 14, [50 50], [50 50], [50 50], [50 50], 'ExportOutputVideo', false);
+>> SpeedupVideo('.', 'Example', 'face', SS, SNS, [50 50], [50 50], [50 50], [50 50], 'ExportOutputVideo', false);
