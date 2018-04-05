@@ -47,7 +47,7 @@ This project is a two-fold source code. The first fold¹ is composed of MATLAB c
 
 The project processing is decribed by the following flowchart:
 
-![Flowchart](https://user-images.githubusercontent.com/23279754/28940020-a0b49676-7869-11e7-9677-e8833f81713e.jpg)
+![Flowchart](https://user-images.githubusercontent.com/23279754/38369324-cf30af52-38bd-11e8-9314-67144f134f5c.jpg)
 
 1. **Optical Flow Estimator:**
 
@@ -73,7 +73,7 @@ Save the output file using the same name of the input video with extension `.csv
 
     The second step is to extract the semantic information over all frames of the Input video and save it in a CSV file. On the MATLAB console, go to the project folder and run the command:
 
-```matlab
+```matlab![epic eccvw_flowchart](https://user-images.githubusercontent.com/23279754/38369324-cf30af52-38bd-11e8-9314-67144f134f5c.jpg)
 >> ExtractAndSave(< Video_filename >, < Semantic_extractor_name >)
 ```
 
@@ -84,7 +84,20 @@ Save the output file using the same name of the input video with extension `.csv
 
 3. **Calculate Speed-up rates**
 
-    To calculate the speed-up rates for each type of segment, on the MATLAB console, go to the project folder and run the command:
+    To calculate the speed-up rates for each type of segment, on the MATLAB console, go to the project folder and run the following commands:
+
+```matlab
+>> [~, < Num_non_semantic_Frames >, < Num_semantic_frames >] = GetSemanticRanges(< Semantic_Data_MAT_filename >);
+```
+
+| Parameters | Description | Type | Example | 			
+|--------:|-------------|------|--------|
+| `< Semantic_Data_MAT_filename >` | File created by the step 2 | _String_ | `'../example_face_extracted.mat'` |
+
+| Output | Description | Type | Example |			
+|--------:|-------------|------|--------|
+| `< Num_non_semantic_Frames >` | Number of frames in the Non-Semantic segments. (Will be used below.) | _Integer_ | `Tns` |
+| `< Num_semantic_Frames >` | Number of frames in the Semantic segments. (Will be used below.) | _Integer_ | `Ts` |
 
 ```matlab
 >> SpeedupOptimization( < Num_non_semantic_Frames >, < Num_semantic_frames >, < Desired_speedup >, < Max_speedup>, < lambda_1 >, < lambda_2 >, < show_plot > )
@@ -92,11 +105,11 @@ Save the output file using the same name of the input video with extension `.csv
 
 | Parameters | Description | Type | Example | 			
 |--------:|-------------|------|--------|
-| `< Num_non_semantic_Frames >` | Number of frames in the Non-Semantic segments. | _Integer_ | `7643` |
-| `< Num_semantic_Frames >` | Number of frames in the Semantic segments. | _Integer_ | `12935` |
+| `< Num_non_semantic_Frames >` | Number of frames in the Non-Semantic segments. (Obtained from the previous code) | _Integer_ | `Tns` |
+| `< Num_semantic_Frames >` | Number of frames in the Semantic segments. (Obtained from the previous code) | _Integer_ | `Ts` |
 | `< Desired_speedup >` | Desired speed-up rate to the whole video. | _Integer_ | `10` |
 | `< Lambda_1 >` | Value of Lambda 1 in the optimization function. | _Integer_ | `40` |
-| `< Lambda_2 >` | Value of Lambda 1 in the optimization function. | _Integer_ | `8` |
+| `< Lambda_2 >` | Value of Lambda 2 in the optimization function. | _Integer_ | `8` |
 | `< show_plot >` | Flag to show the search space create by the optimization function. | _Boolean_ | `false` |
 
 4. **Create Experiment** 
