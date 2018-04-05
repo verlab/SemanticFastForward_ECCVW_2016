@@ -55,14 +55,15 @@ $ wget www.verlab.dcc.ufmg.br/semantic-hyperlapse/data/video-example/example_fac
 
 % [<semantic_speedup>, <non_semantic_speedup>] = SpeedupOptimization(< number_of_non_semantic_frames >, < number_of_semantic_frames >, < required_final_speedup >, < max_graph_step >, < first_lambda >, < second_lambda >, < plot >);
 
->> [SS, SNS] = SpeedupOptimization(602, 285, 10, 100, 15, 20, 0);
+>> [SS, SNS] = SpeedupOptimization(Tns, Ts, 10, 100, 15, 20, 0);
 
 
 % We suggest to use "Util/FindingBestSpeedups.m", which returns a set of possible speedup combinations.
 
 % FindingBestSpeedups(< number_of_non_semantic_frames >, < number_of_semantic_frames >, < required_final_speedup >);
 
->> [SS, SNS] = FindingBestSpeedups(602, 285, 10);
+>> addpath('Util');
+>> [SS, SNS] = FindingBestSpeedups(Tns, Ts, 10);
 
 
 % 6- To generate the final hyperlapse video, use the "SpeedupVideo" function. The graph weight tuple are composed of [semantic_weight non-semantic_weigth].
