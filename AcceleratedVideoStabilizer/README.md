@@ -36,7 +36,7 @@ http://www.verlab.dcc.ufmg.br
 ### Dependencies ###
 
 * OpenCV 2.4 _(Tested with 2.4.9 and 2.4.13)_
-* Armadillo 6 _(Tested with 6.600.5 -- Catabolic Amalgamator)_
+* Armadillo 6 _(Tested with 6.600.5 -- Catabolic Amalgamator and 9.800.1)_
 * Boost 1 _(Tested with 1.54.0 and 1.58.0)_
 * Doxygen 1 _(for documentation only - Tested with 1.8.12)_
 
