@@ -100,7 +100,7 @@ Save the output file using the same name of the input video with extension `.csv
 | `< Num_semantic_Frames >` | Number of frames in the Semantic segments. (Will be used below.) | _Integer_ | `Ts` |
 
 ```matlab
->> SpeedupOptimization( < Num_non_semantic_Frames >, < Num_semantic_frames >, < Desired_speedup >, < Max_speedup>, < lambda_1 >, < lambda_2 >, < show_plot > )
+>> SpeedupOptimization( < Num_non_semantic_Frames >, < Num_semantic_frames >, < Desired_speedup >, < Max_speedup >, < lambda_1 >, < lambda_2 >, < show_plot > )
 ```
 
 | Parameters | Description | Type | Example | 			
@@ -108,6 +108,7 @@ Save the output file using the same name of the input video with extension `.csv
 | `< Num_non_semantic_Frames >` | Number of frames in the Non-Semantic segments. (Obtained from the previous code) | _Integer_ | `Tns` |
 | `< Num_semantic_Frames >` | Number of frames in the Semantic segments. (Obtained from the previous code) | _Integer_ | `Ts` |
 | `< Desired_speedup >` | Desired speed-up rate to the whole video. | _Integer_ | `10` |
+| `< Max_speedup >` | Maximum allowed jump. | _Integer_ | `100` |
 | `< Lambda_1 >` | Value of Lambda 1 in the optimization function. | _Integer_ | `40` |
 | `< Lambda_2 >` | Value of Lambda 2 in the optimization function. | _Integer_ | `8` |
 | `< show_plot >` | Flag to show the search space create by the optimization function. | _Boolean_ | `false` |
